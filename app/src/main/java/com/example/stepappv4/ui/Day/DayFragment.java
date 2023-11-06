@@ -45,7 +45,7 @@ public class DayFragment extends Fragment {
                              ViewGroup container, Bundle savedInstanceState) {
 
         // uncomment to add some data to the database
-        //StepAppOpenHelper.mockDatabaseEntries(getContext(), this.cDate);
+        StepAppOpenHelper.mockDatabaseEntries(getContext(), this.cDate);
 
         binding = FragmentDayBinding.inflate(inflater, container, false);
         View root = binding.getRoot();
